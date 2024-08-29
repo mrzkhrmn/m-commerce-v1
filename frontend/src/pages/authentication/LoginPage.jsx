@@ -1,11 +1,17 @@
 import { Link, useNavigate } from "react-router-dom";
 import { FaFacebook, FaGoogle } from "react-icons/fa";
 import { useState } from "react";
+import { useLoginMutation } from "../../redux/api/authApiSlice";
+import { useDispatch } from "react-redux";
+import { loginSuccess } from "../../redux/reducers/authSlice";
 
 export const LoginPage = () => {
   const [formData, setFormData] = useState({ email: "", password: "" });
 
-  const loading = false;
+  const [login, { isLoading: isLoginLoading }] = useLoginMutation();
+
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.id]: e.target.value });
@@ -14,6 +20,9 @@ export const LoginPage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
+      await login(formData).unwrap();
+      dispatch(loginSuccess(formData));
+      navigate("/");
     } catch (error) {
       console.log(error);
     }
@@ -56,10 +65,10 @@ export const LoginPage = () => {
                 />
               </div>
               <button
-                disabled={loading}
+                disabled={isLoginLoading}
                 className="bg-[#F47458] hover:bg-[#d9684f] transition duration-200 text-white py-2 disabled:opacity-70"
               >
-                {loading ? "Logging in..." : "Login"}
+                {isLoginLoading ? "Logging in..." : "Login"}
               </button>
             </form>
             <p className="text-center mt-6">
@@ -73,13 +82,13 @@ export const LoginPage = () => {
             </p>
             <div className="flex items-center justify-center gap-4">
               <button
-                disabled={loading}
+                disabled={isLoginLoading}
                 className="flex gap-2 items-center justify-center w-[135px] bg-[#F47458] hover:bg-[#d9684f] transition duration-200 py-2 disabled:opacity-70"
               >
                 <FaGoogle color="white" size={25} />
               </button>
               <button
-                disabled={loading}
+                disabled={isLoginLoading}
                 className="flex gap-2 items-center justify-center w-[135px] bg-blue-500 hover:bg-blue-600  transition duration-200 py-2 disabled:opacity-70"
               >
                 <FaFacebook color="white" size={25} />
