@@ -4,6 +4,7 @@ import connectDB from "./db/connectDatabase.js";
 dotenv.config();
 
 import authRouter from "./routes/authRoutes.js";
+import userRouter from "./routes/userRoutes.js";
 import cookieParser from "cookie-parser";
 import cors from "cors";
 
@@ -20,3 +21,4 @@ app.listen(process.env.PORT, () => {
 });
 
 app.use("/api/auth", authRouter);
+app.use("/api/user", userRouter);
