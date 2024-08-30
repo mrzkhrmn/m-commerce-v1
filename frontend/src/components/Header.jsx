@@ -8,8 +8,10 @@ export const Header = () => {
   const [isHovered, setIsHovered] = useState(false);
   return (
     <nav
-      className={`w-full flex justify-between lg:px-10 px-4 lg:py-0 py-2   lg:bg-transparent bg-black lg:text-black text-white relative ${
-        isHovered && "lg:bg-black lg:text-white transition duration-300"
+      className={`w-full flex justify-between lg:px-10 px-4 lg:py-0 py-2    bg-black  text-white relative ${
+        isHovered
+          ? "lg:bg-black lg:text-white transition duration-300 "
+          : " lg:bg-transparent lg:text-black transition duration-300"
       }`}
     >
       <div className="flex gap-8">
