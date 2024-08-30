@@ -1,1 +1,4 @@
-
+.nav-item:hover ~ .group:hover {
+  background-color: black;
+  color: white;
+}
