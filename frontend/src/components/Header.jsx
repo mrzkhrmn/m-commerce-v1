@@ -1,11 +1,13 @@
-import { MdMenu } from "react-icons/md";
+import { MdMenu, MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { IoSearchOutline } from "react-icons/io5";
+import { RiCloseLargeFill } from "react-icons/ri";
 import { PiBasket } from "react-icons/pi";
 import { FiUser } from "react-icons/fi";
 import { useState } from "react";
 
 export const Header = () => {
   const [isHovered, setIsHovered] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <nav
       className={`w-full flex justify-between lg:px-10 px-4 lg:py-0 py-2    bg-black  text-white relative ${
@@ -16,11 +18,97 @@ export const Header = () => {
     >
       <div className="flex gap-8">
         <div className="flex items-center gap-2">
-          <button className="text-xl lg:hidden block mb-[0.1rem]">
-            <MdMenu />
+          <button
+            className="text-xl lg:hidden block mb-[0.1rem]"
+            onClick={() => setIsMenuOpen((isMenuOpen) => !isMenuOpen)}
+          >
+            {isMenuOpen ? <RiCloseLargeFill /> : <MdMenu />}
           </button>
           <h1 className="lg:text-2xl text-xl mb-[0.3rem]">mcommerce.</h1>
         </div>
+        {/* Small Screen Hamburger Menu */}
+        <div className="lg:hidden items-center text-sm gap-6 flex">
+          <div
+            className={`absolute top-full left-0 w-0   bg-black/90 text-white overflow-hidden h-screen transition-all duration-500 ease-in-out ${
+              isMenuOpen && "w-full"
+            }`}
+          >
+            <ul className="text-[1.35rem] py-8 flex flex-col px-4 md:px-8 gap-6">
+              <li>
+                <div className="flex justify-between cursor-pointer">
+                  <h1>Men</h1>{" "}
+                  <button>
+                    <MdOutlineKeyboardArrowRight size={40} />
+                  </button>
+                </div>
+              </li>
+              <li>
+                {" "}
+                <div className="flex justify-between cursor-pointer">
+                  <h1>Women</h1>{" "}
+                  <button>
+                    <MdOutlineKeyboardArrowRight size={40} />
+                  </button>
+                </div>
+              </li>
+              <li>
+                {" "}
+                <div className="flex justify-between cursor-pointer">
+                  <h1>Headwear</h1>{" "}
+                  <button>
+                    <MdOutlineKeyboardArrowRight size={40} />
+                  </button>
+                </div>
+              </li>
+              <li>
+                {" "}
+                <div className="flex justify-between cursor-pointer">
+                  <h1>Accessories</h1>{" "}
+                  <button>
+                    <MdOutlineKeyboardArrowRight size={40} />
+                  </button>
+                </div>
+              </li>
+              <li>
+                {" "}
+                <div className="flex justify-between cursor-pointer">
+                  <h1>Kids</h1>{" "}
+                  <button>
+                    <MdOutlineKeyboardArrowRight size={40} />
+                  </button>
+                </div>
+              </li>
+              <li>
+                {" "}
+                <div className="flex justify-between cursor-pointer">
+                  <h1>Sale</h1>{" "}
+                  <button>
+                    <MdOutlineKeyboardArrowRight size={40} />
+                  </button>
+                </div>
+              </li>
+              <li>
+                {" "}
+                <div className="flex justify-between cursor-pointer">
+                  <h1>About</h1>{" "}
+                  <button>
+                    <MdOutlineKeyboardArrowRight size={40} />
+                  </button>
+                </div>
+              </li>
+              <li>
+                {" "}
+                <div className="flex justify-between cursor-pointer">
+                  <h1>Journal</h1>{" "}
+                  <button>
+                    <MdOutlineKeyboardArrowRight size={40} />
+                  </button>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        {/* Large Screen Hamburger Menu */}
         <ul className="lg:flex items-center text-sm gap-6 hidden">
           <li
             className="group h-full flex items-center lg:py-6"
