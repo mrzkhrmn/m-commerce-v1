@@ -2,7 +2,7 @@ const products = [
   {
     name: "Basic Men T-Shirt",
     gender: "men",
-    productType: "tshirt",
+    productCategory: "tshirt",
     variations: [
       { size: "S", color: "Red", stock: 10 },
       { size: "M", color: "Red", stock: 15 },
@@ -41,7 +41,7 @@ const products = [
   {
     name: "Striped Men T-Shirt",
     gender: "men",
-    productType: "tshirt",
+    productCategory: "tshirt",
     variations: [
       { size: "S", color: "Red", stock: 10 },
       { size: "M", color: "Red", stock: 15 },
@@ -80,7 +80,7 @@ const products = [
   {
     name: "Quality Men T-Shirt",
     gender: "men",
-    productType: "tshirt",
+    productCategory: "tshirt",
     variations: [
       { size: "S", color: "Red", stock: 10 },
       { size: "M", color: "Red", stock: 15 },
@@ -119,7 +119,7 @@ const products = [
   {
     name: "Advanced Quality Men T-Shirt",
     gender: "men",
-    productType: "tshirt",
+    productCategory: "tshirt",
     variations: [
       { size: "S", color: "Red", stock: 10 },
       { size: "M", color: "Red", stock: 15 },
@@ -159,7 +159,7 @@ const products = [
   {
     name: "Basic Men Pants",
     gender: "men",
-    productType: "pants",
+    productCategory: "pants",
     variations: [
       { size: "S", color: "Red", stock: 10 },
       { size: "M", color: "Red", stock: 15 },
@@ -198,7 +198,7 @@ const products = [
   {
     name: "Striped Men Pants",
     gender: "men",
-    productType: "pants",
+    productCategory: "pants",
     variations: [
       { size: "S", color: "Red", stock: 10 },
       { size: "M", color: "Red", stock: 15 },
@@ -237,7 +237,7 @@ const products = [
   {
     name: "Quality Men Pants",
     gender: "men",
-    productType: "pants",
+    productCategory: "pants",
     variations: [
       { size: "S", color: "Red", stock: 10 },
       { size: "M", color: "Red", stock: 15 },
@@ -276,7 +276,7 @@ const products = [
   {
     name: "Advanced Quality Men Pants",
     gender: "men",
-    productType: "pants",
+    productCategory: "pants",
     variations: [
       { size: "S", color: "Red", stock: 10 },
       { size: "M", color: "Red", stock: 15 },
@@ -317,7 +317,7 @@ const products = [
   {
     name: "Basic Men Shoes",
     gender: "men",
-    productType: "shoes",
+    productCategory: "shoes",
     variations: [
       { size: "38", color: "Red", stock: 10 },
       { size: "39", color: "Red", stock: 15 },
@@ -356,7 +356,7 @@ const products = [
   {
     name: "Striped Men Shoes",
     gender: "men",
-    productType: "shoes",
+    productCategory: "shoes",
     variations: [
       { size: "38", color: "Red", stock: 10 },
       { size: "39", color: "Red", stock: 15 },
@@ -395,7 +395,7 @@ const products = [
   {
     name: "Quality Men Shoes",
     gender: "men",
-    productType: "shoes",
+    productCategory: "shoes",
     variations: [
       { size: "38", color: "Red", stock: 10 },
       { size: "39", color: "Red", stock: 15 },
@@ -434,7 +434,7 @@ const products = [
   {
     name: "Advance Quality Men Shoes",
     gender: "men",
-    productType: "shoes",
+    productCategory: "shoes",
     variations: [
       { size: "38", color: "Red", stock: 10 },
       { size: "39", color: "Red", stock: 15 },
@@ -475,7 +475,7 @@ const products = [
   {
     name: "Basic women T-Shirt",
     gender: "women",
-    productType: "tshirt",
+    productCategory: "tshirt",
     variations: [
       { size: "S", color: "Red", stock: 10 },
       { size: "M", color: "Red", stock: 15 },
@@ -514,7 +514,7 @@ const products = [
   {
     name: "Striped women T-Shirt",
     gender: "women",
-    productType: "tshirt",
+    productCategory: "tshirt",
     variations: [
       { size: "S", color: "Red", stock: 10 },
       { size: "M", color: "Red", stock: 15 },
@@ -553,7 +553,7 @@ const products = [
   {
     name: "Quality women T-Shirt",
     gender: "women",
-    productType: "tshirt",
+    productCategory: "tshirt",
     variations: [
       { size: "S", color: "Red", stock: 10 },
       { size: "M", color: "Red", stock: 15 },
@@ -592,7 +592,7 @@ const products = [
   {
     name: "Advanced Quality women T-Shirt",
     gender: "women",
-    productType: "tshirt",
+    productCategory: "tshirt",
     variations: [
       { size: "S", color: "Red", stock: 10 },
       { size: "M", color: "Red", stock: 15 },
@@ -632,7 +632,7 @@ const products = [
   {
     name: "Basic women Pants",
     gender: "women",
-    productType: "pants",
+    productCategory: "pants",
     variations: [
       { size: "S", color: "Red", stock: 10 },
       { size: "M", color: "Red", stock: 15 },
@@ -671,7 +671,7 @@ const products = [
   {
     name: "Striped women Pants",
     gender: "women",
-    productType: "pants",
+    productCategory: "pants",
     variations: [
       { size: "S", color: "Red", stock: 10 },
       { size: "M", color: "Red", stock: 15 },
@@ -710,7 +710,7 @@ const products = [
   {
     name: "Quality women Pants",
     gender: "women",
-    productType: "pants",
+    productCategory: "pants",
     variations: [
       { size: "S", color: "Red", stock: 10 },
       { size: "M", color: "Red", stock: 15 },
@@ -749,7 +749,7 @@ const products = [
   {
     name: "Advanced Quality women Pants",
     gender: "women",
-    productType: "pants",
+    productCategory: "pants",
     variations: [
       { size: "S", color: "Red", stock: 10 },
       { size: "M", color: "Red", stock: 15 },
@@ -790,7 +790,7 @@ const products = [
   {
     name: "Basic women Shoes",
     gender: "women",
-    productType: "shoes",
+    productCategory: "shoes",
     variations: [
       { size: "38", color: "Red", stock: 10 },
       { size: "39", color: "Red", stock: 15 },
@@ -829,7 +829,7 @@ const products = [
   {
     name: "Striped women Shoes",
     gender: "women",
-    productType: "shoes",
+    productCategory: "shoes",
     variations: [
       { size: "38", color: "Red", stock: 10 },
       { size: "39", color: "Red", stock: 15 },
@@ -868,7 +868,7 @@ const products = [
   {
     name: "Quality women Shoes",
     gender: "women",
-    productType: "shoes",
+    productCategory: "shoes",
     variations: [
       { size: "38", color: "Red", stock: 10 },
       { size: "39", color: "Red", stock: 15 },
@@ -907,7 +907,7 @@ const products = [
   {
     name: "Advance Quality women Shoes",
     gender: "women",
-    productType: "shoes",
+    productCategory: "shoes",
     variations: [
       { size: "38", color: "Red", stock: 10 },
       { size: "39", color: "Red", stock: 15 },
@@ -948,7 +948,7 @@ const products = [
   {
     name: "Stylish Hat",
     gender: "unisex",
-    productType: "hat",
+    productCategory: "hat",
     variations: [
       { size: "one size", color: "Black", stock: 20 },
       { size: "one size", color: "White", stock: 10 },
@@ -959,7 +959,7 @@ const products = [
   {
     name: "Striped Hat",
     gender: "unisex",
-    productType: "hat",
+    productCategory: "hat",
     variations: [
       { size: "one size", color: "Black", stock: 20 },
       { size: "one size", color: "White", stock: 10 },
@@ -970,7 +970,7 @@ const products = [
   {
     name: "Quality Hat",
     gender: "unisex",
-    productType: "hat",
+    productCategory: "hat",
     variations: [
       { size: "one size", color: "Black", stock: 20 },
       { size: "one size", color: "White", stock: 10 },
@@ -981,7 +981,7 @@ const products = [
   {
     name: "Advance Quality Hat",
     gender: "unisex",
-    productType: "hat",
+    productCategory: "hat",
     variations: [
       { size: "one size", color: "Black", stock: 20 },
       { size: "one size", color: "White", stock: 10 },
