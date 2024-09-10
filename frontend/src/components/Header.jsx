@@ -3,17 +3,36 @@ import { IoSearchOutline } from "react-icons/io5";
 import { RiCloseLargeFill } from "react-icons/ri";
 import { PiBasket } from "react-icons/pi";
 import { FiUser } from "react-icons/fi";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export const Header = () => {
   const [isHovered, setIsHovered] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 50);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Temizlik fonksiyonu
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
   return (
     <nav
-      className={`w-full flex justify-between lg:px-10 px-4 lg:py-0 py-2    bg-black  text-white relative ${
-        isHovered
-          ? "lg:bg-black lg:text-white transition duration-300 "
-          : " lg:bg-transparent lg:text-black transition duration-300"
+      className={`w-full flex justify-between lg:px-10 px-4 lg:py-0 py-2 fixed z-[9999] transition duration-300 ${
+        scrolled
+          ? "bg-black text-white lg:bg-black lg:text-white"
+          : "bg-black text-white"
+      } ${
+        !scrolled && isHovered
+          ? "lg:bg-black lg:text-white"
+          : !scrolled
+          ? "lg:bg-transparent lg:text-black"
+          : ""
       }`}
     >
       <div className="flex gap-8">
