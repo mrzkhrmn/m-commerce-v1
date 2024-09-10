@@ -6,7 +6,7 @@ export const AltCards = ({ image, title }) => {
         alt="productImage"
         className="h-full w-full object-cover"
       />
-      <div className=" absolute  left-10 top-8 z-[999]">
+      <div className=" absolute  left-10 top-8 z-[999] pointer-events-none">
         <h2 className="text-2xl font-bold text-white">{title}</h2>
       </div>
       <div className="absolute top-0 w-full h-full z-[99] cursor-pointer  transition duration-300 hover:bg-black/15 bg-transparent hidden md:block"></div>

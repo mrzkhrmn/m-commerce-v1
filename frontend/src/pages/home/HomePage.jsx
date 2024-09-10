@@ -1,10 +1,6 @@
-import { useState } from "react";
-import { Header } from "../../components/Header";
 import { useGetAllUsersQuery } from "../../redux/api/userApiSlice";
-import { FaArrowRightLong } from "react-icons/fa6";
-
 import { MainCards } from "../../components/Home/MainCards";
-import { Button, Carousel } from "flowbite-react";
+import { Carousel } from "flowbite-react";
 import { AltCards } from "../../components/Home/AltCards";
 import { PresentationSection } from "../../components/Home/PresentationSection";
 import { NewProductsSection } from "../../components/Home/NewProductsSection";
@@ -50,8 +46,6 @@ export const HomePage = () => {
   //const { data: allUsers, error, isLoading } = useGetAllUsersQuery();
 
   //console.log(allUsers);
-
-  const [showShopOutfitButton, setShowOutfitButton] = useState(false);
 
   return (
     <main>
