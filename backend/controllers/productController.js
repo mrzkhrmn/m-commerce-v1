@@ -19,3 +19,15 @@ export const getAllMenProducts = async (req, res) => {
     res.status(500).json({ error: error.message });
   }
 };
+
+export const getAllWomenProducts = async (req, res) => {
+  try {
+    const products = await Product.find({
+      gender: { $in: ["women", "unisex"] },
+    });
+    res.status(200).json(products);
+  } catch (error) {
+    console.log(error.message);
+    res.status(500).json({ error: error.message });
+  }
+};
