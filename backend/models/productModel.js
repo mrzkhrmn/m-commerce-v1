@@ -13,6 +13,7 @@ const productSchema = mongoose.Schema({
     required: true,
     enum: ["tshirt", "pants", "shoes", "hat"],
   },
+  images: { type: Array, required: true },
   gender: {
     type: String,
     required: true,

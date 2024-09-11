@@ -3,6 +3,10 @@ export const products = [
     name: "Basic Men T-Shirt",
     gender: "men",
     productCategory: "tshirt",
+    images: [
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/1500w/products/201/7108/5026_CLASSIC_TEE_SAND__57157.1724968871.jpg?c=1",
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/1500w/products/201/7108/5026_CLASSIC_TEE_SAND__57157.1724968871.jpg?c=1",
+    ],
     variations: [
       { size: "S", color: "Red", stock: 10 },
       { size: "M", color: "Red", stock: 15 },
@@ -42,6 +46,10 @@ export const products = [
     name: "Striped Men T-Shirt",
     gender: "men",
     productCategory: "tshirt",
+    images: [
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/1500w/products/201/7108/5026_CLASSIC_TEE_SAND__57157.1724968871.jpg?c=1",
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/1500w/products/201/7108/5026_CLASSIC_TEE_SAND__57157.1724968871.jpg?c=1",
+    ],
     variations: [
       { size: "S", color: "Red", stock: 10 },
       { size: "M", color: "Red", stock: 15 },
@@ -81,6 +89,10 @@ export const products = [
     name: "Quality Men T-Shirt",
     gender: "men",
     productCategory: "tshirt",
+    images: [
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/1500w/products/201/7108/5026_CLASSIC_TEE_SAND__57157.1724968871.jpg?c=1",
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/1500w/products/201/7108/5026_CLASSIC_TEE_SAND__57157.1724968871.jpg?c=1",
+    ],
     variations: [
       { size: "S", color: "Red", stock: 10 },
       { size: "M", color: "Red", stock: 15 },
@@ -120,6 +132,10 @@ export const products = [
     name: "Advanced Quality Men T-Shirt",
     gender: "men",
     productCategory: "tshirt",
+    images: [
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/1500w/products/201/7108/5026_CLASSIC_TEE_SAND__57157.1724968871.jpg?c=1",
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/1500w/products/201/7108/5026_CLASSIC_TEE_SAND__57157.1724968871.jpg?c=1",
+    ],
     variations: [
       { size: "S", color: "Red", stock: 10 },
       { size: "M", color: "Red", stock: 15 },
@@ -160,6 +176,10 @@ export const products = [
     name: "Basic Men Pants",
     gender: "men",
     productCategory: "pants",
+    images: [
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/1500w/products/668/17826/5930_STRAIGHT_PANTS_KHAKI__39546.1724895305.jpg?c=1",
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/1500w/products/668/17826/5930_STRAIGHT_PANTS_KHAKI__39546.1724895305.jpg?c=1",
+    ],
     variations: [
       { size: "S", color: "Red", stock: 10 },
       { size: "M", color: "Red", stock: 15 },
@@ -199,6 +219,10 @@ export const products = [
     name: "Striped Men Pants",
     gender: "men",
     productCategory: "pants",
+    images: [
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/1500w/products/668/17826/5930_STRAIGHT_PANTS_KHAKI__39546.1724895305.jpg?c=1",
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/1500w/products/668/17826/5930_STRAIGHT_PANTS_KHAKI__39546.1724895305.jpg?c=1",
+    ],
     variations: [
       { size: "S", color: "Red", stock: 10 },
       { size: "M", color: "Red", stock: 15 },
@@ -238,6 +262,10 @@ export const products = [
     name: "Quality Men Pants",
     gender: "men",
     productCategory: "pants",
+    images: [
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/1500w/products/668/17826/5930_STRAIGHT_PANTS_KHAKI__39546.1724895305.jpg?c=1",
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/1500w/products/668/17826/5930_STRAIGHT_PANTS_KHAKI__39546.1724895305.jpg?c=1",
+    ],
     variations: [
       { size: "S", color: "Red", stock: 10 },
       { size: "M", color: "Red", stock: 15 },
@@ -277,6 +305,10 @@ export const products = [
     name: "Advanced Quality Men Pants",
     gender: "men",
     productCategory: "pants",
+    images: [
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/1500w/products/668/17826/5930_STRAIGHT_PANTS_KHAKI__39546.1724895305.jpg?c=1",
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/1500w/products/668/17826/5930_STRAIGHT_PANTS_KHAKI__39546.1724895305.jpg?c=1",
+    ],
     variations: [
       { size: "S", color: "Red", stock: 10 },
       { size: "M", color: "Red", stock: 15 },
@@ -318,6 +350,10 @@ export const products = [
     name: "Basic Men Shoes",
     gender: "men",
     productCategory: "shoes",
+    images: [
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/640w/products/676/8862/1210_RELAX_STRIPE_SOCKS_FRONT__93644.1.jpg",
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/640w/products/676/8862/1210_RELAX_STRIPE_SOCKS_FRONT__93644.1.jpg",
+    ],
     variations: [
       { size: "38", color: "Red", stock: 10 },
       { size: "39", color: "Red", stock: 15 },
@@ -357,6 +393,10 @@ export const products = [
     name: "Striped Men Shoes",
     gender: "men",
     productCategory: "shoes",
+    images: [
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/640w/products/676/8862/1210_RELAX_STRIPE_SOCKS_FRONT__93644.1.jpg",
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/640w/products/676/8862/1210_RELAX_STRIPE_SOCKS_FRONT__93644.1.jpg",
+    ],
     variations: [
       { size: "38", color: "Red", stock: 10 },
       { size: "39", color: "Red", stock: 15 },
@@ -396,6 +436,10 @@ export const products = [
     name: "Quality Men Shoes",
     gender: "men",
     productCategory: "shoes",
+    images: [
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/640w/products/676/8862/1210_RELAX_STRIPE_SOCKS_FRONT__93644.1.jpg",
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/640w/products/676/8862/1210_RELAX_STRIPE_SOCKS_FRONT__93644.1.jpg",
+    ],
     variations: [
       { size: "38", color: "Red", stock: 10 },
       { size: "39", color: "Red", stock: 15 },
@@ -435,6 +479,10 @@ export const products = [
     name: "Advance Quality Men Shoes",
     gender: "men",
     productCategory: "shoes",
+    images: [
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/640w/products/676/8862/1210_RELAX_STRIPE_SOCKS_FRONT__93644.1.jpg",
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/640w/products/676/8862/1210_RELAX_STRIPE_SOCKS_FRONT__93644.1.jpg",
+    ],
     variations: [
       { size: "38", color: "Red", stock: 10 },
       { size: "39", color: "Red", stock: 15 },
@@ -476,6 +524,11 @@ export const products = [
     name: "Basic women T-Shirt",
     gender: "women",
     productCategory: "tshirt",
+    images: [
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/1500w/products/201/7108/5026_CLASSIC_TEE_SAND__57157.1724968871.jpg?c=1",
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/1500w/products/201/7108/5026_CLASSIC_TEE_SAND__57157.1724968871.jpg?c=1",
+    ],
+
     variations: [
       { size: "S", color: "Red", stock: 10 },
       { size: "M", color: "Red", stock: 15 },
@@ -515,6 +568,11 @@ export const products = [
     name: "Striped women T-Shirt",
     gender: "women",
     productCategory: "tshirt",
+    images: [
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/1500w/products/201/7108/5026_CLASSIC_TEE_SAND__57157.1724968871.jpg?c=1",
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/1500w/products/201/7108/5026_CLASSIC_TEE_SAND__57157.1724968871.jpg?c=1",
+    ],
+
     variations: [
       { size: "S", color: "Red", stock: 10 },
       { size: "M", color: "Red", stock: 15 },
@@ -554,6 +612,11 @@ export const products = [
     name: "Quality women T-Shirt",
     gender: "women",
     productCategory: "tshirt",
+    images: [
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/1500w/products/201/7108/5026_CLASSIC_TEE_SAND__57157.1724968871.jpg?c=1",
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/1500w/products/201/7108/5026_CLASSIC_TEE_SAND__57157.1724968871.jpg?c=1",
+    ],
+
     variations: [
       { size: "S", color: "Red", stock: 10 },
       { size: "M", color: "Red", stock: 15 },
@@ -593,6 +656,11 @@ export const products = [
     name: "Advanced Quality women T-Shirt",
     gender: "women",
     productCategory: "tshirt",
+    images: [
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/1500w/products/201/7108/5026_CLASSIC_TEE_SAND__57157.1724968871.jpg?c=1",
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/1500w/products/201/7108/5026_CLASSIC_TEE_SAND__57157.1724968871.jpg?c=1",
+    ],
+
     variations: [
       { size: "S", color: "Red", stock: 10 },
       { size: "M", color: "Red", stock: 15 },
@@ -633,6 +701,10 @@ export const products = [
     name: "Basic women Pants",
     gender: "women",
     productCategory: "pants",
+    images: [
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/1500w/products/668/17826/5930_STRAIGHT_PANTS_KHAKI__39546.1724895305.jpg?c=1",
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/1500w/products/668/17826/5930_STRAIGHT_PANTS_KHAKI__39546.1724895305.jpg?c=1",
+    ],
     variations: [
       { size: "S", color: "Red", stock: 10 },
       { size: "M", color: "Red", stock: 15 },
@@ -672,6 +744,10 @@ export const products = [
     name: "Striped women Pants",
     gender: "women",
     productCategory: "pants",
+    images: [
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/1500w/products/668/17826/5930_STRAIGHT_PANTS_KHAKI__39546.1724895305.jpg?c=1",
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/1500w/products/668/17826/5930_STRAIGHT_PANTS_KHAKI__39546.1724895305.jpg?c=1",
+    ],
     variations: [
       { size: "S", color: "Red", stock: 10 },
       { size: "M", color: "Red", stock: 15 },
@@ -711,6 +787,10 @@ export const products = [
     name: "Quality women Pants",
     gender: "women",
     productCategory: "pants",
+    images: [
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/1500w/products/668/17826/5930_STRAIGHT_PANTS_KHAKI__39546.1724895305.jpg?c=1",
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/1500w/products/668/17826/5930_STRAIGHT_PANTS_KHAKI__39546.1724895305.jpg?c=1",
+    ],
     variations: [
       { size: "S", color: "Red", stock: 10 },
       { size: "M", color: "Red", stock: 15 },
@@ -750,6 +830,10 @@ export const products = [
     name: "Advanced Quality women Pants",
     gender: "women",
     productCategory: "pants",
+    images: [
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/1500w/products/668/17826/5930_STRAIGHT_PANTS_KHAKI__39546.1724895305.jpg?c=1",
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/1500w/products/668/17826/5930_STRAIGHT_PANTS_KHAKI__39546.1724895305.jpg?c=1",
+    ],
     variations: [
       { size: "S", color: "Red", stock: 10 },
       { size: "M", color: "Red", stock: 15 },
@@ -791,6 +875,10 @@ export const products = [
     name: "Basic women Shoes",
     gender: "women",
     productCategory: "shoes",
+    images: [
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/640w/products/676/8862/1210_RELAX_STRIPE_SOCKS_FRONT__93644.1.jpg",
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/640w/products/676/8862/1210_RELAX_STRIPE_SOCKS_FRONT__93644.1.jpg",
+    ],
     variations: [
       { size: "38", color: "Red", stock: 10 },
       { size: "39", color: "Red", stock: 15 },
@@ -830,6 +918,10 @@ export const products = [
     name: "Striped women Shoes",
     gender: "women",
     productCategory: "shoes",
+    images: [
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/640w/products/676/8862/1210_RELAX_STRIPE_SOCKS_FRONT__93644.1.jpg",
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/640w/products/676/8862/1210_RELAX_STRIPE_SOCKS_FRONT__93644.1.jpg",
+    ],
     variations: [
       { size: "38", color: "Red", stock: 10 },
       { size: "39", color: "Red", stock: 15 },
@@ -869,6 +961,10 @@ export const products = [
     name: "Quality women Shoes",
     gender: "women",
     productCategory: "shoes",
+    images: [
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/640w/products/676/8862/1210_RELAX_STRIPE_SOCKS_FRONT__93644.1.jpg",
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/640w/products/676/8862/1210_RELAX_STRIPE_SOCKS_FRONT__93644.1.jpg",
+    ],
     variations: [
       { size: "38", color: "Red", stock: 10 },
       { size: "39", color: "Red", stock: 15 },
@@ -908,6 +1004,10 @@ export const products = [
     name: "Advance Quality women Shoes",
     gender: "women",
     productCategory: "shoes",
+    images: [
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/640w/products/676/8862/1210_RELAX_STRIPE_SOCKS_FRONT__93644.1.jpg",
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/640w/products/676/8862/1210_RELAX_STRIPE_SOCKS_FRONT__93644.1.jpg",
+    ],
     variations: [
       { size: "38", color: "Red", stock: 10 },
       { size: "39", color: "Red", stock: 15 },
@@ -949,6 +1049,10 @@ export const products = [
     name: "Stylish Hat",
     gender: "unisex",
     productCategory: "hat",
+    images: [
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/1500w/products/901/15166/1133_ACCESS_ACTIVE_CAP_BONE_FRONT__82657.1717123186.jpg?c=1",
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/1500w/products/901/15166/1133_ACCESS_ACTIVE_CAP_BONE_FRONT__82657.1717123186.jpg?c=1",
+    ],
     variations: [
       { size: "one size", color: "Black", stock: 20 },
       { size: "one size", color: "White", stock: 10 },
@@ -960,6 +1064,10 @@ export const products = [
     name: "Striped Hat",
     gender: "unisex",
     productCategory: "hat",
+    images: [
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/1500w/products/901/15166/1133_ACCESS_ACTIVE_CAP_BONE_FRONT__82657.1717123186.jpg?c=1",
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/1500w/products/901/15166/1133_ACCESS_ACTIVE_CAP_BONE_FRONT__82657.1717123186.jpg?c=1",
+    ],
     variations: [
       { size: "one size", color: "Black", stock: 20 },
       { size: "one size", color: "White", stock: 10 },
@@ -971,6 +1079,10 @@ export const products = [
     name: "Quality Hat",
     gender: "unisex",
     productCategory: "hat",
+    images: [
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/1500w/products/901/15166/1133_ACCESS_ACTIVE_CAP_BONE_FRONT__82657.1717123186.jpg?c=1",
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/1500w/products/901/15166/1133_ACCESS_ACTIVE_CAP_BONE_FRONT__82657.1717123186.jpg?c=1",
+    ],
     variations: [
       { size: "one size", color: "Black", stock: 20 },
       { size: "one size", color: "White", stock: 10 },
@@ -982,6 +1094,10 @@ export const products = [
     name: "Advance Quality Hat",
     gender: "unisex",
     productCategory: "hat",
+    images: [
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/1500w/products/901/15166/1133_ACCESS_ACTIVE_CAP_BONE_FRONT__82657.1717123186.jpg?c=1",
+      "https://cdn11.bigcommerce.com/s-hsi95a83fz/images/stencil/1500w/products/901/15166/1133_ACCESS_ACTIVE_CAP_BONE_FRONT__82657.1717123186.jpg?c=1",
+    ],
     variations: [
       { size: "one size", color: "Black", stock: 20 },
       { size: "one size", color: "White", stock: 10 },

@@ -1,13 +1,10 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-export const MainCards = ({ image, title }) => {
+export const MainCards = ({ image, title, link }) => {
   const [showShopOutfitButton, setShowOutfitButton] = useState(false);
   return (
-    <Link
-      to={`/${title.toLowerCase()}`}
-      className="md:w-[50%] w-[100%] h-[48rem] relative"
-    >
+    <Link to={`/${link}`} className="md:w-[50%] w-[100%] h-[48rem] relative">
       <img
         src={image}
         alt="productImage"

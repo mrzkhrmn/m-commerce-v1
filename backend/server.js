@@ -5,6 +5,7 @@ dotenv.config();
 
 import authRouter from "./routes/authRoutes.js";
 import userRouter from "./routes/userRoutes.js";
+import productRouter from "./routes/productRoutes.js";
 import cookieParser from "cookie-parser";
 import cors from "cors";
 
@@ -22,3 +23,4 @@ app.listen(process.env.PORT, () => {
 
 app.use("/api/auth", authRouter);
 app.use("/api/user", userRouter);
+app.use("/api/product", productRouter);

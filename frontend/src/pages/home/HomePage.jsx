@@ -53,7 +53,12 @@ export const HomePage = () => {
         <div className="flex flex-col">
           <div className="md:flex hidden">
             {MainCardData.map((data, index) => (
-              <MainCards key={index} title={data.title} image={data.image} />
+              <MainCards
+                key={index}
+                title={data.title}
+                link={data.title === "Mens" ? "men" : "women"}
+                image={data.image}
+              />
             ))}
           </div>
           <div className="md:hidden flex w-full">
