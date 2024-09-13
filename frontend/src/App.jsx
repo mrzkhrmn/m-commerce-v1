@@ -11,8 +11,8 @@ function App() {
     <Routes>
       <Route element={<Layout />}>
         <Route element={<HomePage />} path="/" />
-        <Route element={<MensPage />} path="/mens" />
-        <Route element={<WomensPage />} path="/womens" />
+        <Route element={<MensPage />} path="/men" />
+        <Route element={<WomensPage />} path="/women" />
       </Route>
       <Route element={<LoginPage />} path="/login" />
       <Route element={<SignupPage />} path="/signup" />

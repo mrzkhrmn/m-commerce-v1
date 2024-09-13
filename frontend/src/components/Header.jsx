@@ -23,7 +23,7 @@ export const Header = () => {
   }, []);
   return (
     <nav
-      className={`w-full flex justify-between lg:px-10 px-4 lg:py-0 py-2 fixed z-[9999] transition duration-300 ${
+      className={` w-full flex justify-between lg:px-10 px-4 lg:py-0 py-2 fixed z-[9999] transition duration-300 ${
         scrolled
           ? "bg-black text-white lg:bg-black lg:text-white"
           : "bg-black text-white"
